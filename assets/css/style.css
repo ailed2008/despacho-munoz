@@ -195,8 +195,8 @@ input{
     width: 420px;
     /* height:35px; */
 }
-#mapa{
-    margin-left: 20px;
+.mapa iframe{
+    height: 430px;
 }
 
 /* FOOTER */
@@ -248,4 +248,15 @@ footer{
         width:350px;
         /* margin: 20px 20px; */
      }
+     #contacto{
+        width:70%;
+        margin:20px auto;
+        display:block;
+    }
+    input{
+        width:100%;
+    }
+    .mapa iframe{
+        width: 100%;
+    }
 }
