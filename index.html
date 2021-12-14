@@ -11,16 +11,17 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="assets/img/logo.jpg" alt="abogado acapulco">
+        <a href="index.html"><img class="logo" src="assets/img/logo.jpg" alt="abogado acapulco"></a>
         <!-- <h2 class="logo" >Abogado</h2> -->
         <input  type="checkbox" id="check" >
         <label for="check" class="mostrar-menu">
             &#8801
         </label>
         <nav class="menu">
-            <a href="#">Inicio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Sobre nosotros</a>
+            <a href="#banner">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#sobre">Sobre nosotros</a>
+            <a href="#contacto">Contáctanos</a>
             <label for="check" class="esconder-menu">
                 &#215
             </label>
@@ -69,6 +70,26 @@
                 <a href="#" class="boton-saber-mas">Saber más</a>
             </div>
     </section>
+    <h2>Contáctanos</h2>
+    <section id="contacto">
+        <form action="">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" name="nombre" id="">
+            <label for="nombre">Teléfono</label>
+            <input type="number" name="telefono" id="">
+            <label for="nombre">Correo</label>
+            <input type="email" name="correo" id="">
+            <label for="nombre">Mensaje</label>
+            <input type="text" name="mensaje" id="">
+            <input type="submit" value="Necesito asesoría">
+        </form>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61097.34147916748!2d-99.91146373164815!3d16.846989081465345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85caf70f2e386aa9%3A0x6366a9f04bd21b46!2sCorporativo%20Jur%C3%ADdico%20Mu%C3%B1oz%20%26%20Asociados!5e0!3m2!1ses-419!2smx!4v1639514317001!5m2!1ses-419!2smx" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <footer>
+        Corporativo Jurídico Muñoz & Asociados © 2021
+    </footer>
 
 </body>
 </html>
